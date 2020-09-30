@@ -1,0 +1,51 @@
+name: validvision
+description: The Gp Flutter project.
+version: 1.0.0
+
+dependencies:
+  cupertino_icons: ^0.1.3
+  image_picker: ^0.6.7+4
+  http: ^0.12.2
+  flutter_launcher_icons: ^0.7.5
+  flare_flutter: ^2.0.6
+  smooth_page_indicator: ^0.2.0
+  fluttertoast: ^4.0.1
+  google_nav_bar: ^2.2.0
+  dio: ^3.0.10
+  shared_preferences: ^0.5.8
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  redux: ^4.0.0+3
+  flutter_redux: ^0.6.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/ic_launcher.png"
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Arabolical
+      fonts:
+        - asset: assets/fonts/arabolical.ttf
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/UbuntuMedium.ttf
+  assets:
+    - assets/logo.png
+    - assets/logo.flr
+    - assets/ai_vision.jpg
+    - assets/healthy_eye.png
+    - assets/take_pic.png
+    - assets/doctors.png
+    - assets/person.png
+    - assets/final_img.jpg
+    - assets/hide_password.png
+    - assets/show_password.png
